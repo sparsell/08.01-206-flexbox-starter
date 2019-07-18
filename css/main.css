@@ -104,14 +104,14 @@ html {
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 0 2em;
-  font-size: 1.25em;
+  font-size: 1em;
   height: 100%;
   color: #fff;
 }
 
 header,
 footer {
-  background-color: #222;
+  background-color: darkgray;
   height: 80px;
   width: 100%;
 }
@@ -129,6 +129,12 @@ main {
 display: flex;
 justify-content: center;
 align-items: center;
+font-size: 1.25em;
+}
+
+main {
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 #div-1,
@@ -139,8 +145,8 @@ align-items: center;
   align-items: center;
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.25em;
-  height: 200px;
+  font-size: 1em;
+  height: 225px;
 }
 
 .wrapper span {
@@ -152,7 +158,6 @@ align-items: center;
   /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center, and set flex-flow to row wrap*/
     display: flex;
   justify-content: space-between;
-  align-items: center;
   flex-flow: row wrap;
 
 }
@@ -162,12 +167,24 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: #222;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background-color: #b3d4fc;
   width: 30%;
   height: 200px;
+}
+
+header {
+    font-size: 3em;
+}
+
+h2 {
+    margin: 35px;
+}
+
+p {
+    margin: 25px;
 }
 
 /* ==========================================================================
