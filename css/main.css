@@ -96,8 +96,8 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
-  height: 100%;
+  background-color:whitesmoke;
+ height: 100%;
   width: 100%;
 }
 
@@ -106,20 +106,23 @@ body {
   padding: 0 2em;
   font-size: 1em;
   height: 100%;
-  color: #fff;
+  color: whitesmoke;
+  border: solid #4a607b 40px;
 }
 
-header,
-footer {
-  background-color: darkgray;
-  height: 80px;
+header {
+  background-color: whitesmoke;
+  height: 30%;
   width: 100%;
+}
+footer {
+  background-color: #67ae70;
+  width: 100%;
+  height: 100%;
 }
 
 main {
-  background-color: #ccc;
-  height: 250px;
-  width: 100%;
+  
 }
 
 header,
@@ -129,14 +132,29 @@ main {
 display: flex;
 justify-content: center;
 align-items: center;
-font-size: 1.25em;
+
+}
+
+header {
+justify-content: end;
+    color:#67ae70;
+padding: 125px 0 25px 20px;
+font-size: 2.5em;
+ border-bottom: #4a607b 8px dotted;
 }
 
 main {
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: whitesmoke;
+    border-bottom: #4a607b 8px dotted;
+    /*height: 40%;
+    width: 100%;*/
 }
 
+main p {
+    color: #4a607b;
+}
 #div-1,
 #div-2,
 #div-3 {
@@ -157,7 +175,8 @@ main {
 .flex-container {
   /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center, and set flex-flow to row wrap*/
     display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
 
 }
@@ -167,24 +186,25 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #222;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #b3d4fc;
   width: 30%;
   height: 200px;
 }
 
 header {
     font-size: 3em;
+    color: #f44336;
 }
 
 h2 {
     margin: 35px;
+    color: #e49d38;
 }
 
 p {
     margin: 25px;
+    color: #4a607b;
 }
 
 /* ==========================================================================
@@ -281,6 +301,7 @@ p {
 
   #div-3 {
     /* set your flex value to 1 100% */
+    flex
   }
 }
 
