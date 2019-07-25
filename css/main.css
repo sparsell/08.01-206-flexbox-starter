@@ -97,12 +97,14 @@ textarea {
 
 html {
   border-bottom: #4a607b solid 4em;
+  border-top: #4a607b solid 4em;
+    background-color: whitesmoke;
 }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1em;
-  color: whitesmoke;
+ background-color: whitesmoke;
 }
 
 header {
@@ -137,18 +139,21 @@ main p {
     color: #4a607b;
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
     flex-wrap: wrap;
+    padding-bottom: 1.25em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+     border-bottom: #67ae70 solid .2em;
 }
 
 #div-1,
 #div-2,
 #div-3 {
-  color: #fff;
+  background-color: whitesmoke;
   line-height: 1.5em;
   font-size: 1em;
-  border-top: #67ae70 solid .2em;
- 
+  flex: 1 1 30%;
 }
 
 .flex-container {
@@ -184,8 +189,7 @@ p {
     margin: 25px;
     color: #4a607b;
 }
-
-span {
+.title {
     color: #e49d38;
     font-size: 1.25em;
     text-transform: uppercase
@@ -270,7 +274,7 @@ span {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-
+/*
 @media all and (max-width: 768px) {
     body {
       padding: 1em;
@@ -282,10 +286,10 @@ span {
   #div-2{
       /* set your flex value to 1 50% */
   }
-
+/*
   #div-3 {
     /* set your flex value to 1 100% */
-    flex
+ /*   flex
   }
 }
 
